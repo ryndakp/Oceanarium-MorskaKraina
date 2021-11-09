@@ -4,19 +4,7 @@
 ## Autor: Patrycja Ryndak
 ## Specyfikacja projektu
 ### Cel projektu : Głównym celem projektu jest utworzenie strony internetowej dla pewnego oceanarium.
-#### Cele szczegółowe:
-   1.  Przyjazny i łatwy w obsłudze interfejs
-   2.  Umożliwienie rezerwacji stolika
-   3.  Umożliwienie złożenia zamówienia
-   4.  Możliwość wystawienia opinii po wizycie w restauracji
-   5.  Zamawianie jedzenia online 
-### Funkcjonalności:
-   1. Obsługa rezerwacji online
-   2. Recenzje i opinie o restauracji 
-   3. Zamawianie jedzenia online ( płatność tylko gotówką)
-   4. Możliwość przejścia do innych social mediów restauracji
-   5. Podgląd lokalizacji restauracji z google maps 
-   6. Filtrowanie stolików ( wolny/ zajęty danego dnia o danej godzinie )
+
 ### Interfejs serwisu
 ![image](https://user-images.githubusercontent.com/63348363/140929168-13c4c620-b4a6-448b-9d52-b3c3265193e2.png)
 ![image](https://user-images.githubusercontent.com/63348363/140929235-813beb32-8d8b-4618-8a8f-3eac2ad6d3e1.png)
@@ -30,5 +18,9 @@
 	Do uwtorzenia strony zostały wykorzystane technologie :
 	- HTML 5 
 	- Css 3 
-
+## Uruchamianie aplikacji
+Do uruchomienia aplikacji należy: 
+- pobrać plik Morska Kraina.zip
+- wypakować archiwum
+- otworzyć w przeglądarce plik o nazwie index.html
 
