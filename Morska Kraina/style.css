@@ -1,0 +1,436 @@
+body
+{
+	background-color:#2A2A2A;
+	font-family: 'Lato', sans-serif;
+	color: #DADADA;
+	font-size:25px;
+	margin: 0 !important;
+}
+.container
+{
+	width:100%;
+}
+.top
+{
+	height:100px;
+	width:100%;
+	padding:40px 0;
+	margin-bottom:20px;
+	
+}
+.logo
+{
+	
+	width:550px;
+	margin-left: auto;
+	margin-right: auto;
+	color:#ffffff;
+	text-shadow: 3px 3px 1px #448AFF;
+	font-size: 56px;
+	font-weight: bold;
+	padding-bottom:20px;
+	text-align:center;
+
+}
+.nav
+{
+	width:100%;
+	height:50px;
+	background-color:#448AFF;
+	position: -webkit-sticky;
+	border-top:5px solid #ffffff;
+	border-bottom:5px solid #ffffff;
+	border-left:5px solid #ffffff;
+	border-right:5px solid #ffffff;
+	padding:20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	font-weight:bold;
+	
+}
+.sticky 
+{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  
+}
+ol 
+{
+	padding:0;
+	margin:0;
+	list-style-type: none;
+	font-size:20px;
+	margin-left: 200px;
+	line-height:200%;
+}
+ol a
+{
+	text-decoration:none;
+	color:#2A2A2A;
+	display:block;
+}
+ol> li
+{
+	text-decoration:none;
+	float:left;
+	width:200px;
+}
+ol>li:hover
+{
+	background-color:#DADADA;
+}
+ol > li > ul {
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  display:none;
+} 
+ol > li:hover > ul
+{
+	display:block;
+}
+ol > li > ul > li > a {
+   border-top:1px dashed #ffffff;
+   border-bottom:1px dashed #ffffff;
+ 
+}
+ol > li > ul > li {
+  background-color:#DADADA;
+}
+ol > li > ul > li:hover {
+  background-color:#FBFBFB;
+}
+li>ul{
+	width:200px;
+	position:absolute;
+	float:right;
+}
+
+.tresc
+{
+	
+	width:1000px;
+	margin-left: 300px;
+	margin-right: auto;
+	text-align: justify;
+	padding:30px;
+	margin-top:50px;
+}
+.ogloszenie
+{
+	color:#2A2A2A;
+	background-color:#FBFBFB;
+	padding:5px;
+	box-shadow: 30px -16px #448AFF;
+	border-radius: 10px;
+	
+}
+.obrazek
+{
+	width:650px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom:10px;
+}
+.socialmedia
+{
+	padding:30px;
+	float:left;
+	width:180px;
+	height:1100px;
+	margin-top:auto;
+	margin-bottom:50px;
+	
+}
+.fb
+{
+	margin-top:100px;
+	margin-bottom:100px;
+	width:150px;
+	height:150px;
+	text-align:center;
+	padding:15px;
+	border: 10px solid #ffffff;
+	border-radius: 100px;
+}
+.fb:hover
+{
+	background-color:#303F9F;
+	width:160px;
+	height:160px;
+	border-radius: 110px;
+	border: 10px solid #ffffff;
+}
+#fb_h
+{
+	display:none;
+}
+.fb:hover #fb_h
+{
+	font-size:10px;
+	display:inline;
+	color:#2A2A2A;
+}
+.yt
+{
+	margin-top:100px;
+	margin-bottom:100px;
+	width:150px;
+	height:150px;
+	text-align:center;
+	padding:15px;
+	border: 10px solid #ffffff;
+	border-radius: 100px;
+}
+.yt:hover
+{
+	background-color:#C62828;
+	width:160px;
+	height:160px;
+	border-radius: 110px;
+	border: 10px solid #ffffff;
+}
+#yt_h
+{
+	display:none;
+}
+.yt:hover #yt_h
+{
+	font-size:10px;
+	display:inline;
+	color:#2A2A2A;
+}
+.ig
+{
+	margin-top:100px;
+	margin-bottom:100px;
+	width:150px;
+	height:150px;
+	text-align:center;
+	padding:15px;
+	border: 10px solid #ffffff;
+	border-radius: 100px;
+}
+.ig:hover
+{
+	background-color:#E040FB;
+	width:160px;
+	height:160px;
+	border-radius: 110px;
+	border: 10px solid #ffffff;
+}
+#ig_h
+{
+	display:none;
+}
+.ig:hover #ig_h
+{
+	font-size:10px;
+	display:inline;
+	color:#2A2A2A;
+}
+.mail
+{
+	margin-top:100px;
+	margin-bottom:100px;
+	width:150px;
+	height:150px;
+	text-align:center;
+	padding:15px;
+	border: 10px solid #ffffff;
+	border-radius: 100px;
+}
+.mail:hover
+{
+	background-color:#FFEB3B;
+	width:160px;
+	height:160px;
+	border-radius: 110px;
+	border: 10px solid #ffffff;
+	color:#2A2A2A;
+}
+#mail_h
+{
+	display:none;
+}
+.mail:hover #mail_h
+{
+	font-size:15px;
+	display:inline;
+	color:#2A2A2A;
+}
+.tel
+{
+	margin-top:100px;
+	margin-bottom:100px;
+	width:150px;
+	height:150px;
+	text-align:center;
+	padding:15px;
+	border: 10px solid #ffffff;
+	border-radius: 100px;
+}
+.tel:hover
+{
+	background-color:#4CAF50;
+	width:160px;
+	height:160px;
+	border-radius: 110px;
+	border: 10px solid #ffffff;
+}
+#tel_h
+{
+	display:none;
+}
+.tel:hover #tel_h
+{
+	font-size:15px;
+	display:inline;
+	color:#2A2A2A;
+}
+.footer
+{
+	clear:both;
+	width:100%;
+	border-top:5px solid #ffffff;
+	text-align:center;
+	padding:5px;
+	margin-top:30px;
+	
+}
+
+.oferty
+{
+	width:1050px;
+	height:410px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+
+}
+.wycieczki
+{
+	height:400px;
+	width:260px;
+	float:left;
+	
+}
+.rodziny
+{
+	height:400px;
+	width:260px;
+	float:left;
+
+}
+.os_d
+{
+	height:400px;
+	width:260px;
+	float:left;
+	
+}
+.dziecko
+{
+	height:400px;
+	width:260px;
+	float:left;
+	
+}
+.gora
+{
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-top:100px;
+	font-weight:bold;
+}
+.wypelnienie
+{
+	height:370px;
+	width:225px;
+	margin-left:auto;
+	margin-right:auto;
+	border: 5px solid #ffffff;
+	border-radius: 180px;
+	margin-top:20px;
+}
+.wypelnienie:hover
+{
+	height:380px;
+	width:230px;
+	margin-left:auto;
+	margin-right:auto;
+	border: 5px solid #ffffff;
+	border-radius: 180px;
+	margin-top:20px;
+	background-color:#F1F8E9;
+	color:#2A2A2A;
+}
+.tresc_oferty
+{
+	font-size:15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.info
+{
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-size:40px;
+	font-weight:bold;
+}
+.foka
+{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+	
+}
+.delfin
+{
+	
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+}
+.mors
+{
+	
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+}
+.ryba
+{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	
+
+}
+.zdjecie
+{ 
+	width:640px;
+	height:425px;
+	float:left;
+	
+}
+.opis
+{
+	float:right;
+	width:340px;
+	height:425px;
+	
+	
+}
