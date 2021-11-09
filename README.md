@@ -20,7 +20,6 @@
 	- Css 3 
 ## Uruchamianie aplikacji
 Do uruchomienia aplikacji należy: 
-- pobrać plik Morska Kraina.zip
-- wypakować archiwum
+- pobrać repozytorium Oceanarium Morska kraina
 - otworzyć w przeglądarce plik o nazwie index.html
 
