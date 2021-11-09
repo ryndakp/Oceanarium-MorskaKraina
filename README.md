@@ -23,4 +23,4 @@
 Do uruchomienia aplikacji należy: 
 - pobrać repozytorium Oceanarium Morska kraina
 - otworzyć w przeglądarce plik o nazwie index.html
-
+Grafiki wykorzystane do utworzenia serwisu pochodzą ze strony www.pixabay.com i podlegają licencji Pixabay License. Grafiki są darmowe i nie wymagają przypisania autora.
