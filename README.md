@@ -18,6 +18,7 @@
 	Do uwtorzenia strony zostały wykorzystane technologie :
 	- HTML 5 
 	- Css 3 
+	- JavaScript
 ## Uruchamianie aplikacji
 Do uruchomienia aplikacji należy: 
 - pobrać repozytorium Oceanarium Morska kraina
